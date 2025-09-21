@@ -19,7 +19,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/suyuan32/simple-admin-common/orm/ent/entenum"
+	"github.com/Tricitrus/tricitrus-admin-common/orm/ent/entenum"
 	"google.golang.org/grpc/metadata"
 )
 

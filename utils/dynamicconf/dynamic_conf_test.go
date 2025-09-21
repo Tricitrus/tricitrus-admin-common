@@ -5,7 +5,7 @@ import (
 
 	"github.com/redis/go-redis/v9"
 
-	"github.com/suyuan32/simple-admin-common/config"
+	"github.com/Tricitrus/tricitrus-admin-common/config"
 )
 
 func TestSetDynamicConfigurationToRedis(t *testing.T) {
@@ -151,7 +151,6 @@ func TestSetTenantDynamicConfigurationToRedis(t *testing.T) {
 }
 
 func TestGetTenantDynamicConfigurationToRedis(t *testing.T) {
-
 	t.Skip("skip TestGetTenantDynamicConfigurationToRedis")
 
 	conf := config.RedisConf{
